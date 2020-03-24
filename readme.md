@@ -3,23 +3,23 @@ Check my working example at the link below:
 https://github.com/cindyokino/full-java-course
 
 Learned technologies throughout the course:
-- Syntaxe du langage Java
-- Classes, attributs et méthodes
-- Constructeurs, surcharge, encapsulation
-- Structures de données: tableaux et collections
-- Énumérations, composition
-- Héritage, polymorphisme, interfaces
+- Java language syntax
+- Classes, attributes and methods
+- Manufacturers, overload, encapsulation
+- Data structures: tables and collections
+- Enumerations, composition
+- Heritage, polymorphism, interfaces
 
 Next subjects throughout the course:
-- Gestion des exceptions
-- Génériques
-- Programmation fonctionnelle et expressions lambda, Stream API
-- Manipulation de fichiers
-- JDBC pour l'accès aux données basé sur SQL
-- JavaFX pour interface graphique
-- Git / Github pour le versioning
-- Spring Boot - framework Java principal pour le développement commercial Java
-- JPA / Hibernate pour l'accès aux données avec le mappage relationnel objet (ORM)
-- Maven pour la gestion des dépendances du projet
-- Spring Data JPA - cadre pour accéder aux données ORM
-- Spring Data MongoDB - framework pour accéder aux données NoSQL à la base de données MongoDB
+- Exception handling
+- Generics
+- Functional programming and lambda expressions, Stream API
+- File manipulation
+- JDBC for SQL-based data access
+- JavaFX for graphical interface
+- Git / Github for versioning
+- Spring Boot - main Java framework for Java commercial development
+- JPA / Hibernate for data access with object relational mapping (ORM)
+- Maven for the management of project dependencies
+- Spring Data JPA - framework for accessing ORM data
+- Spring Data MongoDB - framework for accessing NoSQL data to the MongoDB database

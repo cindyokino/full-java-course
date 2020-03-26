@@ -23,5 +23,3 @@ Next subjects throughout the course:
 - Maven for the management of project dependencies
 - Spring Data JPA - framework for accessing ORM data
 - Spring Data MongoDB - framework for accessing NoSQL data to the MongoDB database
-
-

@@ -8,9 +8,9 @@ public class RentalService {
 	private Double pricePerDay;
 	private Double pricePerHour;
 	
-	private BrazilTaxService taxService; // a classe RentalService tem uma dependencia com a BrazilTaxService
+	private TaxService taxService; // a classe RentalService tem uma dependencia com a TaxService
 
-	public RentalService(Double pricePerDay, Double pricePerHour, BrazilTaxService taxService) {
+	public RentalService(Double pricePerDay, Double pricePerHour, TaxService taxService) { // TaxService no lugar de BrazilTaxService
 		super();
 		this.pricePerDay = pricePerDay;
 		this.pricePerHour = pricePerHour;
@@ -20,11 +20,11 @@ public class RentalService {
 	public void processInvoice(CarRental carRental) {
 		long t1 = carRental.getStart().getTime();
 		long t2 = carRental.getFinish().getTime();
-		double hours = (double)(t2 - t1) / 1000 / 60 / 60; //from milliseconds to seconds, to minutes, to hours
+		double hours = (double)(t2 - t1) / 1000 / 60 / 60; //from milliseconds: to seconds, to minutes, to hours
 	
 		double basicPayment;
 		if (hours <= 12.0) {
-			basicPayment = Math.ceil(hours) * pricePerHour;
+			basicPayment = Math.ceil(hours) * pricePerHour; // Math.ceil arredonda para o proximo numero inteiro
 		}
 		else {
 			basicPayment = Math.ceil(hours/24) * pricePerDay;

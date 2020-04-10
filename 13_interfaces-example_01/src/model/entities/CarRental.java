@@ -10,7 +10,7 @@ public class CarRental {
 	private Vehicle vehicle;
 	private Invoice invoice;
 	
-	public void CarRental() {
+	public CarRental() {
 	}
 	
 	public CarRental(Date start, Date finish, Vehicle vehicle) {

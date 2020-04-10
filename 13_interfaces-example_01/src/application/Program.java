@@ -1,4 +1,4 @@
-// SOLUTION WITHOUT INTERFACE (see the continuation with interface)
+// SOLUTION WITH INTERFACE 
 
 package application;
 

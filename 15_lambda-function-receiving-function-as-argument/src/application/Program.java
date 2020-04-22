@@ -21,8 +21,8 @@ public class Program {
 
 		ProductService ps = new ProductService();
 		
-		double sum = ps.filteredSum(list, p -> p.getName().charAt(0) == 'T');
- 
+		double sum = ps.filteredSum(list, p -> p.getName().charAt(0) == 'T'); //change the predicate in this line to test
+		 
 		System.out.println("Sum = " + String.format("%.2f", sum));
 	}
 }

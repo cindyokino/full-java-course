@@ -28,7 +28,7 @@ public class Program {
 			String line = br.readLine();
 			while (line != null) {
 				
-				String[] fields = line.split(" "); // vetor ou array
+				String[] fields = line.split(" "); // vetor(array)
 				String username = fields[0];
 				Date moment = Date.from(Instant.parse(fields[1]));
 				

@@ -1,0 +1,1 @@
+This project uses MySQL database and a schema called "jpaclass" to run. 
